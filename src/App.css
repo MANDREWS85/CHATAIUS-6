@@ -1,5 +1,41 @@
 main {
   text-align: center;
   vertical-align: center;
-  line-height: 100vh
+  line-height: 5vh  
+  horizontal-align: center;
+  margin:auto;
+  width:480px;
+}
+
+
+#Banner {
+  margin-bottom: 25px;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  min-height:"";
+  max-height:"";
+  border: var(--border) ;
+  text-align: center;
+  opacity: .95;
+  padding:10px;  
+}
+
+#Sitepal-Iframe {
+  border-radius: 25px;
+  margin:auto;
+  height:220px;
+  overflow: hidden;
+}
+
+#GPT3API {
+  border: 0px solid;
+  border-radius: 25px;
+  color:white;
+  background-color:grey;
+  background-image:url('');
+  opacity: .95;
+  padding:10px;
+  
 }
